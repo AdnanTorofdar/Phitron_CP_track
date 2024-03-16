@@ -3,11 +3,11 @@ using namespace std;
 
 int main() {
     int t;
-    cin >> t; // Number of test cases
+    cin >> t;
     
     while (t--) {
         int n;
-        cin >> n; // Length of the string
+        cin >> n;
         
         if (n == 1) {
             cout << "NO" << endl;
@@ -17,7 +17,7 @@ int main() {
             for (int i = 0; i < n / 2; ++i) {
                 ans += "AA";
             }
-            if (n % 2 == 1) ans += 'B'; // Append any character if n is odd
+            if (n % 2 == 1) ans += 'B'; 
             cout << ans << endl;
         }
     }
